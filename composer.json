@@ -1,0 +1,22 @@
+{
+  "name": "gffuma/datatable",
+  "description": "Laravel 5 DataTable jQuery json source package",
+  "keywords": ["laravel", "datatable"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gffuma",
+      "email": "fumagalli.gf@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gffuma\\DataTable\\": "src/"
+    }
+  }
+}
